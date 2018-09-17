@@ -33,6 +33,13 @@ body {
   overflow-x: hidden;
 }
 
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+  margin-bottom: 1rem;
+  font-family: Merriweather, serif;
+  font-weight: 700;
+  color: inherit;
+}
+
 .btn {
   font-size: 16px;
   letter-spacing: .125rem;
