@@ -40,6 +40,25 @@ body {
   color: inherit;
 }
 
+.bg-skew {
+  position: relative;
+  &:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform: skewY(-5deg);
+    transform-origin: top left;
+    z-index: -1;
+  }
+}
+
+.bg-skew-light:before {
+    background-color: $secondary;
+}
+
 .btn {
   font-size: 16px;
   letter-spacing: .125rem;
