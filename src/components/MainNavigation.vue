@@ -50,12 +50,12 @@ export default {
 <style lang="scss" scoped>
 @import '../assets/scss/settings';
 .nav-link {
+  transition: $transition-primary;
   font-size: 18px;
   color: $text-primary !important;
   border-bottom: 1px solid transparent;
+  &:hover, &:focus {
+    color: $secondary !important;
+  }
 }
-.active {
-  border-bottom: 1px solid $text-primary;
-}
-
 </style>
