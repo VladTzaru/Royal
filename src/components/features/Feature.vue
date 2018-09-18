@@ -6,7 +6,7 @@
             <p>{{description}}</p>
         </div>
         <div :class="setPosition()[1]" class="col-lg-6">
-            <img :src="imgSrc" class="img-fluid img-thumbnail" :alt="alt">
+            <img :src="require(`@/assets/img/${imgSrc}`)" class="img-fluid img-thumbnail" :alt="alt">
         </div>
     </div>
 </template>
