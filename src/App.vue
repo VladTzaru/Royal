@@ -61,6 +61,7 @@ body {
 
 .btn {
   font-size: 16px;
+  outline: none !important;
   letter-spacing: .125rem;
   text-transform: uppercase;
 }
@@ -70,12 +71,14 @@ body {
   color: #fff;
   padding: .875rem 1.5rem;
   font-weight: 700;
-  background-color: $secondary-light;
-  border-color: $secondary;
+  background-color: $primary-light;
+  border: $primary-light;
+  border-color: $primary-light;
   box-shadow: $box-shadow-primary;
-  &:hover {
-    background-color: $secondary;
+  &:hover, &:focus, &:active, &:visited {
+    background-color: $primary !important;
     box-shadow: $box-shadow-hover;
+    outline: none !important;
   }
 }
 
