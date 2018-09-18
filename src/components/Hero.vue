@@ -14,10 +14,3 @@
         </div>
     </section>
 </template>
-
-<style lang="scss" scoped>
-@import '../assets/scss/settings';
-.img-thumbnail {
-    box-shadow: $box-shadow-primary;
-}
-</style>

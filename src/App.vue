@@ -103,6 +103,10 @@ a {
 .btn-pill {
   border-radius: 10rem;
 }
+
+.img-thumbnail {
+    box-shadow: $box-shadow-primary;
+}
 </style>
 
 
