@@ -35,12 +35,13 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import '../assets/scss/settings';
+@import '../../assets/scss/settings';
 header {
   box-shadow: $header-shadow;
   padding: 18px 0;
 }
 .nav-link {
+  letter-spacing: 1px;
   transition: $transition-primary;
   font-size: 16px;
   padding: 0 1.25rem !important;

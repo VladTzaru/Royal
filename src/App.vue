@@ -6,7 +6,7 @@
 </template>
 
 <script>
-import MainNavigation from '@/components/MainNavigation.vue';
+import MainNavigation from '@/components/Base/MainNavigation.vue';
 export default {
   components: {
     MainNavigation
@@ -37,6 +37,15 @@ body {
   margin-bottom: 1rem;
   font-weight: 500;
   color: inherit;
+}
+
+a {
+  transition: $transition-primary;
+  text-decoration: none !important;
+  color: $text-primary;
+  &:hover {
+    color: $primary;
+  }
 }
 
 .bg-skew {
@@ -84,10 +93,11 @@ body {
 .hr-rule {
   width: 3rem;
   border-top-width: 2px !important;
+  margin-bottom: 46px;
 }
 
 .border-secondary {
-  border-top-color: $secondary-text !important;
+  border-top-color: $primary !important;
 }
 
 .btn-pill {
