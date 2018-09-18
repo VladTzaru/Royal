@@ -9,6 +9,7 @@
   </Hero>
   <Services />
   <Features/>
+  <Testimonials/>
 </main>
 
 </template>
@@ -18,12 +19,14 @@
 import Hero from '../components/Hero.vue';
 import Services from '../components/services/Services.vue';
 import Features from '../components/features/Features.vue';
+import Testimonials from '../components/testimonials/Testimonials.vue';
 export default {
   name: 'Home',
   components: {
     Hero,
     Services,
-    Features
+    Features,
+    Testimonials
   }
 }
 </script>

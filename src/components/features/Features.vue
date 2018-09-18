@@ -15,7 +15,6 @@
                 position="img-left"
                 alt="Woman is nice"/>
         </div>
-        lorem
     </section>
 </template>
 
