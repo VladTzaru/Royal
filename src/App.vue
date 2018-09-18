@@ -2,14 +2,17 @@
   <div id="app">
     <MainNavigation/>
     <router-view></router-view>
+    <Footer/>
   </div>
 </template>
 
 <script>
 import MainNavigation from '@/components/base/MainNavigation.vue';
+import Footer from '@/components/base/Footer.vue';
 export default {
   components: {
-    MainNavigation
+    MainNavigation,
+    Footer
   }
 }
 </script>
