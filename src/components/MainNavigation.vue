@@ -47,7 +47,7 @@ header {
   color: $text-primary !important;
   border-bottom: 1px solid transparent;
   &:hover, &:focus {
-    color: $secondary !important;
+    color: $secondary-light !important;
   }
 }
 </style>

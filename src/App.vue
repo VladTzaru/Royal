@@ -56,7 +56,7 @@ body {
 }
 
 .bg-skew-light:before {
-    background-color: $secondary;
+    background-color: $secondary-light;
 }
 
 .btn {
@@ -70,11 +70,11 @@ body {
   color: #fff;
   padding: .875rem 1.5rem;
   font-weight: 700;
-  background-color: $secondary;
+  background-color: $secondary-light;
   border-color: $secondary;
   box-shadow: $box-shadow-primary;
   &:hover {
-    background-color: $secondary-dark;
+    background-color: $secondary;
     box-shadow: $box-shadow-hover;
   }
 }
