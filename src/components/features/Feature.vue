@@ -2,7 +2,7 @@
     <div class="row justify-content-lg-between align-items-lg-center py-4 py-lg-5">
         <div :class="setPosition()[0]" class="col-lg-5 mb-4 mb-lg-0">
             <h2>{{title}}</h2>
-            <hr class="sep border-primary ml-0 mb-3 text-left">
+            <hr class="hr-rule border-secondary ml-0 mb-3 text-left">
             <p>{{description}}</p>
         </div>
         <div :class="setPosition()[1]" class="col-lg-6">
