@@ -12,14 +12,13 @@
             </div>
 
             <!-- Call to action -->
-            <hr class="sep border-primary">
+            <hr class="hr-rule border-secondary">
             <div class="container py-5">
                 <div class="text-center">
-                    <h2 class="mb-4">Build an awesome site</h2>
+                    <h2 class="mb-4">Saznajte više o nama, kako radimo i zašto smo bolji od drugih</h2>
                     <div class="mb-4">
-                        <a class="btn btn-pill btn-primary" href="#" role="button">Get started now</a>
+                        <router-link slot="hero-btn" class="btn btn-primary btn-pill" to="/kontakt" tag="button">Pogledaj</router-link>
                     </div>
-                    <a class="link-cta" href="#">Learn More</a>
                 </div>
             </div>
         </div>
@@ -48,4 +47,12 @@ export default {
     }
 }
 </script>
+
+<style lang="scss" scoped>
+@import '../../assets/scss/settings';
+h2.mb-4 {
+    color: $secondary-text;
+}
+</style>
+
 

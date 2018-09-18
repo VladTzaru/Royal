@@ -27,7 +27,7 @@ body {
   letter-spacing: 0;
   -webkit-font-smoothing: antialiased;
   text-transform: none;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 16px;
   line-height: 26px;
   overflow-x: hidden;
@@ -35,8 +35,7 @@ body {
 
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
   margin-bottom: 1rem;
-  font-family: Merriweather, serif;
-  font-weight: 700;
+  font-weight: 500;
   color: inherit;
 }
 
@@ -80,6 +79,15 @@ body {
     box-shadow: $box-shadow-hover;
     outline: none !important;
   }
+}
+
+.hr-rule {
+  width: 3rem;
+  border-top-width: 2px !important;
+}
+
+.border-secondary {
+  border-top-color: $secondary-text !important;
 }
 
 .btn-pill {

@@ -25,8 +25,14 @@ export default {
 <style lang="scss" scoped>
 @import '../../assets/scss/settings';
 i {
-    font-size: 36px;
+    font-size: 34px;
     color: $secondary-text;
+}
+h3 {
+    font-size: 32px;
+}
+p {
+    font-size: 18px;
 }
 h3, p {
     color: $secondary-text;
