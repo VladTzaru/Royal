@@ -1,6 +1,30 @@
-.fade-enter-active, .fade-leave-active {
-    transition: opacity .5s;
-  }
-  .fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
-    opacity: 0;
-  }
+.slide-enter-active {
+    animation: slide-in 500ms ease-out forwards;
+}
+
+.slide-leave-active {
+    opacity: 1;
+    animation: slide-out 500ms ease-out forwards;
+}
+
+@keyframes slide-in {
+    from {
+        opacity: 0;
+        transform: translateY(-30px);
+    } 
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes slide-out {
+    from {
+        opacity: 1;
+        transform: translateY(0);
+    } 
+    to {
+        opacity: 0;
+        transform: translateY(-30px);
+    }
+}
