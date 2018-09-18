@@ -31,12 +31,12 @@ export default {
     data() {
         return {
             services: [
-                {title: 'Service 1', description: 'Built with accessibility in mind and following best practices.', icon: 'fab fa-accessible-icon'},
-                {title: 'Service 2', description: 'Easily customize your site modifying the source scss files.', icon: 'fab fa-sass'},
-                {title: 'Service 3', description: "More than 1200 vector icons from the web's most popular icon set.", icon: 'fab fa-font-awesome-flag'},
-                {title: 'Service 4', description: 'Mobile-first flexbox grid to build layouts of all shapes and sizes.', icon: 'fas fa-mobile-alt'},
-                {title: 'Service 5', description: 'Automated workflow for your development tasks.', icon: 'fab fa-gulp'},
-                {title: 'Service 6', description: "W3C valid code to ensure the site works properly on all major browsers.", icon: 'fas fa-code'}
+                {title: 'Service 1', description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas interdum facilisis dictum.', icon: 'fab fa-accessible-icon'},
+                {title: 'Service 2', description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas interdum facilisis dictum.', icon: 'fab fa-sass'},
+                {title: 'Service 3', description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas interdum facilisis dictum.", icon: 'fab fa-font-awesome-flag'},
+                {title: 'Service 4', description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.', icon: 'fas fa-mobile-alt'},
+                {title: 'Service 5', description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.', icon: 'fab fa-gulp'},
+                {title: 'Service 6', description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.", icon: 'fas fa-code'}
             ]
         }
     },

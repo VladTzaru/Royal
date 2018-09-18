@@ -1,5 +1,5 @@
 <template>
-<div>
+<main>
   <Hero>
     <h1 slot="hero-title" class="display-4">Brza, jednostavna i povoljna rešenja</h1>
     <p slot="hero-text" class="lead mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus sed
@@ -8,19 +8,19 @@
     <img slot="hero-img" src="../assets/img/wireless.jpg" class="img-thumbnail" alt="Creation process">
   </Hero>
   <Services />
-</div>
+</main>
 
 </template>
 
 <script>
 
 import Hero from '../components/Hero.vue';
-import Services from '../components/Services/Services.vue';
+import Services from '../components/services/Services.vue';
 export default {
   name: 'Home',
   components: {
     Hero,
-    Services
+    Services,
   }
 }
 </script>

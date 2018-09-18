@@ -2,7 +2,7 @@
 <div class="col-sm-6 col-md-4 mb-4 mb-md-5">
     <div class="pr-lg-3">
         <span class="icon icon-primary mb-3">
-            <i :class="service.icon" aria-hidden="true"></i>
+            <i class="icon-inner" :class="service.icon" aria-hidden="true"></i>
         </span>
         <h3 class="h4">{{service.title}}</h3>
         <p class="mb-md-0">{{service.description}}</p>
@@ -24,10 +24,7 @@ export default {
 
 <style lang="scss" scoped>
 @import '../../assets/scss/settings';
-i {
-    font-size: 34px;
-    color: $secondary-text;
-}
+
 h3 {
     font-size: 32px;
 }
@@ -37,7 +34,27 @@ p {
 h3, p {
     color: $secondary-text;
 }
-
+.icon {
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    font-size: 32px;
+    width: 5.25rem;
+    height: 5.25rem;
+    margin: 0 auto;
+    box-shadow: $box-shadow-primary;
+}
+.icon-inner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.icon-primary {
+    background-color: #fff;
+    color: $secondary-light;
+}
 </style>
 
 
