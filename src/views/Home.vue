@@ -16,7 +16,7 @@
 
 <script>
 
-import Hero from '../components/Hero.vue';
+import Hero from '../components/hero/Hero.vue';
 import Services from '../components/services/Services.vue';
 import Features from '../components/features/Features.vue';
 import Testimonials from '../components/testimonials/Testimonials.vue';
