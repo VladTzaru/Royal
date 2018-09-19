@@ -64,5 +64,3 @@ p, label {
     color: $secondary-text !important;
 }
 </style>
-
-
