@@ -10,7 +10,7 @@
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, quis! Nemo voluptate facere, minima consequuntur tempora quia corrupti? Iste vitae cupiditate dicta, eveniet incidunt accusantium qui aperiam provident soluta dolor?</p>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, quis! Nemo voluptate facere, minima consequuntur tempora quia corrupti? Iste vitae cupiditate dicta, eveniet incidunt accusantium qui aperiam provident soluta dolor?</p>
                         <hr class="hr-rule border-secondary mt-4 mb-5">
-                        <h3 class="text-center mb-4">Meet the team</h3>
+                        <h3 class="text-center mb-4">Upoznajte tim</h3>
                         <div class="row">
                             <TeamMember v-for="(member, i) in team"
                             :key="i"

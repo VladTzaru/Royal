@@ -30,6 +30,11 @@ export default new Router({
       path: '/kontakt',
       name: 'kontakt',
       component: () => import(/* webpackChunkName: "kontakt" */ './views/Contact.vue')
+    },
+    {
+      path: '*',
+      name: 'catchAll',
+      redirect: '/'
     }
   ]
 })
