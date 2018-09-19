@@ -20,7 +20,7 @@
                             </div>
                             <div class="form-group">
                                 <label for="inputPhone" class="small text-uppercase">Telefon</label>
-                                <input v-model.lazy="userInfo.lastname" type="text" class="form-control" id="inputPhone" placeholder="Unesite vaš broj telefona">
+                                <input v-model.number.lazy="userInfo.phone" type="number" class="form-control" id="inputPhone" placeholder="Unesite vaš broj telefona">
                             </div>
                             <div class="form-group">
                                 <label for="inputEmail" class="small text-uppercase">Email &#42;</label>
@@ -30,7 +30,7 @@
                                 <label for="messageTetxarea" class="small text-uppercase">Poruka &#42;</label>
                                 <textarea v-model.lazy="message" class="form-control rounded" id="messageTetxarea" rows="9" placeholder="Unesite poruku" required=""></textarea>
                             </div>
-                            <button type="submit" class="btn btn-pill btn-primary">Pošalji</button>
+                            <button @click.prevent="onSubmit" type="submit" class="btn btn-pill btn-primary">Pošalji</button>
                         </form>
                     </div>
                 </div>
@@ -46,9 +46,32 @@ export default {
         return {
            userInfo: {
                name: '',
+               lastname: '',
+               phone: '',
                email: ''
            },
            message: ''
+        }
+    },
+    methods: {
+        onSubmit() {
+            const data = {
+                name: this.userInfo.name,
+                lastname: this.userInfo.lastname,
+                phone: this.userInfo.phone,
+                email: this.userInfo.email,
+                message: this.message
+            };
+            this.postData('https://formspree.io/bvanja.87@gmail.com', data);
+        },
+        postData(url = ``, data = {}) {
+            return fetch(url, {
+                method: "POST",
+                headers: {"Content-Type": "application/json; charset=utf-8"},
+                body: JSON.stringify(data)
+            })
+            .then(res => res.json())
+            .catch(err => console.log(err));
         }
     }
 }
