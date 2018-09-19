@@ -15,9 +15,6 @@
             <router-link to="/usluge" active-class="active" tag="li" class="nav-item">
               <a class="nav-link text-uppercase">Usluge</a></router-link>
 
-            <router-link to="/pitanja" active-class="active" tag="li" class="nav-item">
-              <a class="nav-link text-uppercase">Pitanja</a></router-link>
-
             <router-link to="/kontakt" active-class="active" tag="li" class="nav-item">
               <a class="nav-link text-uppercase">Kontakt</a></router-link>
           </ul>
