@@ -45,12 +45,7 @@ h3, p {
     margin: 0 auto;
     box-shadow: $box-shadow-primary;
 }
-.icon-inner {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-}
+
 .icon-primary {
     background-color: #fff;
     color: $secondary-light;

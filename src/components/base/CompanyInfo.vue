@@ -29,9 +29,9 @@ export default {
     data() {
         return {
             team: [
-                {name: 'Ratko Bojovic', position: 'CEO', contact: 'ratko@royal.com'},
-                {name: 'Vladimir Bojovic', position: 'IT Eksperto', contact: 'vladimir@royal.com'},
-                {name: 'Micko Bojovic', position: 'Seljak iz Misevica', contact: 'misevici@royal.com'}
+                {name: 'Ratko Bojovic', position: 'CEO', contact: 'ratko@royal.com', imgSrc: 'ratko.jpg'},
+                {name: 'Vladimir Bojovic', position: 'Web Developer', contact: 'vladimir@royal.com', imgSrc: 'vladimir.jpg'},
+                {name: 'Micko Bojovic', position: 'Seljak iz Misevica', contact: 'misevici@royal.com', imgSrc: 'micko.jpg'}
             ]
         }
     },
