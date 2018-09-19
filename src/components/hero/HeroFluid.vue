@@ -5,9 +5,9 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-6">
-                        <h1 class="display-4 text-white">Elegant theme built with Bootstrap 4</h1>
-                        <p class="lead text-white mb-4">Boost is a modern, responsive corporate theme, designed with a clean and elegant interface.</p>
-                        <router-link slot="hero-btn" class="btn btn-primary btn-pill" to="/usluge" tag="button">Saznaj više</router-link>
+                        <h1 class="display-4 text-white">Mi smo mali tim sa velikim idejama.</h1>
+                        <p class="lead text-white mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias magni minus sint eligendi?</p>
+                        <router-link slot="hero-btn" class="btn btn-primary btn-pill" to="/kontakt" tag="button">Kontaktirajte nas</router-link>
                     </div>
                 </div>
             </div>
