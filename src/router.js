@@ -33,8 +33,8 @@ export default new Router({
     },
     {
       path: '*',
-      name: 'catchAll',
-      redirect: '/'
+      name: 'pageNotFound',
+      component: () => import(/* webpackChunkName: "pageNotFound" */ './views/PageNotFound.vue')
     }
   ]
 })
