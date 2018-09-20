@@ -64,7 +64,7 @@ header {
   padding: 18px 0;
 }
 .navbar-expand-lg {
-  height: 84.44px;
+  height: 70px;
 }
 .nav-link {
   letter-spacing: 1px;
@@ -79,7 +79,7 @@ header {
 }
 .nav-wrapper {
   width: 100%;
-  height: 84.44px;
+  height: 70px;
 }
 
 .navbar-sticky {
