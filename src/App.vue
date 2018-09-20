@@ -7,7 +7,7 @@
 </template>
 
 <script>
-import MainNavigation from '@/components/base/MainNavigation.vue';
+import MainNavigation from '@/components/base/navigation/MainNavigation.vue';
 import Footer from '@/components/base/Footer.vue';
 export default {
   metaInfo: {

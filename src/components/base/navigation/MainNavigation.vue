@@ -3,7 +3,7 @@
     <div class="container">
       <nav class="navbar navbar-expand-lg navbar-light">
         <router-link to="/" tag="a" class="navbar-brand">Royal Logo</router-link>
-        <button class="navbar-toggler" type="button" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+        <button @click="isToggled = !isToggled" class="navbar-toggler" type="button" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
 
@@ -21,18 +21,29 @@
         </div>
       </nav>
     </div>
+
+    <SideNavigation :show="isToggled"/>
+
   </header>
 </template>
 
 <script>
-
+import SideNavigation from './SideNavigation.vue';
 export default {
-  name: 'MainNavigation'
+  name: 'MainNavigation',
+  data() {
+    return {
+      isToggled: false
+    }
+  },
+  components: {
+    SideNavigation
+  }
 }
 </script>
 
 <style lang="scss" scoped>
-@import '../../assets/scss/settings';
+@import '../../../assets/scss/settings';
 header {
   box-shadow: $header-shadow;
   padding: 18px 0;
