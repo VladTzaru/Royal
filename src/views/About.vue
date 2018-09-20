@@ -1,8 +1,11 @@
 <template>
-<main>
-  <HeroFluid/>
-  <CompanyInfo/>
-</main>
+<transition name="slide-left" appear>
+  <main>
+    <HeroFluid/>
+    <CompanyInfo/>
+  </main>
+</transition>
+
 </template>
 
 <script>

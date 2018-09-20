@@ -1,10 +1,11 @@
-.slide-enter-active {
-    animation: slide-in 500ms ease-out forwards;
+// SLIDE IN FROM LEFT
+.slide-left-enter-active {
+    animation: slide-in 700ms ease-out forwards;
 }
 
-.slide-leave-active {
+.slide-left-leave-active {
     opacity: 1;
-    animation: slide-out 500ms ease-out forwards;
+    animation: slide-out 700ms ease-out forwards;
 }
 
 @keyframes slide-in {
@@ -26,5 +27,71 @@
     to {
         opacity: 0;
         transform: translateX(-30px);
+    }
+}
+
+
+// SLIDE IN FROM TOP
+.slide-top-enter-active {
+    animation: slide-in-top 700ms ease-out forwards;
+}
+
+.slide-top-leave-active {
+    opacity: 1;
+    animation: slide-out-top 700ms ease-out forwards;
+}
+
+@keyframes slide-in-top {
+    from {
+        opacity: 0;
+        transform: translateY(-30px);
+    } 
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes slide-out-top {
+    from {
+        opacity: 1;
+        transform: translateY(0);
+    } 
+    to {
+        opacity: 0;
+        transform: translateY(-30px);
+    }
+}
+
+
+// SLIDE IN FROM RIGHT
+.slide-right-enter-active {
+    animation: slide-in-right 700ms ease-out forwards;
+}
+
+.slide-right-leave-active {
+    opacity: 1;
+    animation: slide-out-right 700ms ease-out forwards;
+}
+
+@keyframes slide-in-right {
+    from {
+        opacity: 0;
+        transform: translateX(30px);
+    } 
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes slide-out-right {
+    from {
+        opacity: 1;
+        transform: translateX(0);
+    } 
+    to {
+        opacity: 0;
+        transform: translateX(30px);
     }
 }
