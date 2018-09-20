@@ -22,7 +22,10 @@
       </nav>
     </div>
 
-    <SideNavigation :show="isToggled"/>
+    <SideNavigation 
+      :show="isToggled"
+      @wasToggled="isToggled = $event"
+      @wasClicked="isToggled = $event"/>
 
   </header>
 </template>
