@@ -22,6 +22,9 @@ import Features from '../components/features/Features.vue';
 import Testimonials from '../components/testimonials/Testimonials.vue';
 export default {
   name: 'Home',
+  metaInfo: {
+    title: 'Osiguranje i registracija vozila | Royal'
+  },
   components: {
     Hero,
     Services,

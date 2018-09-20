@@ -10,7 +10,10 @@
 import HeroFluid from '../components/hero/HeroFluid.vue';
 import CompanyInfo from '../components/base/CompanyInfo.vue';
 export default {
-  name: 'Home',
+  name: 'About',
+  metaInfo: {
+    title: 'O nama | Royal'
+  },
   components: {
     HeroFluid,
     CompanyInfo

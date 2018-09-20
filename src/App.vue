@@ -12,6 +12,9 @@
 import MainNavigation from '@/components/base/MainNavigation.vue';
 import Footer from '@/components/base/Footer.vue';
 export default {
+  metaInfo: {
+    title: 'Royal | Osiguranje i registracija vozila | Novi Sad'
+  },
   components: {
     MainNavigation,
     Footer
