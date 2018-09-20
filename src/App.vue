@@ -25,6 +25,12 @@ export default {
 @import './assets/scss/base';
 @import './assets/scss/transitions';
 @import './assets/scss/helpers';
+
+@media screen and (max-width: 490px) {
+  .display-4 {
+    font-size: 2.5rem;
+  }
+}
 </style>
 
 
