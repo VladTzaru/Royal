@@ -57,6 +57,8 @@ blockquote {
 }
 cite {
     color: $secondary;
+    font-style: normal;
+    letter-spacing: 0.1rem;
 }
 </style>
 
