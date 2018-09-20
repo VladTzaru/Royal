@@ -6,8 +6,8 @@
             <img slot="hero-img" src="../assets/img/contact.jpg" class="d-none d-lg-block img-fluid img-thumbnail" alt="Kontakt">
         </Hero> 
         <div class="bg-skew bg-skew-light">
-            <Contact/>
-            <div class="container">
+            <Contacts/>
+            <div class="container mt-5">
                 <div class="row justify-content-center">
                     <div class="col-lg-9">
                         <TeamMembers/>
@@ -20,7 +20,7 @@
 
 <script>
 import Hero from '../components/hero/Hero.vue';
-import Contact from '../components/base/Contact.vue';
+import Contacts from '../components/contact/Contacts.vue';
 import TeamMembers from '../components/team/TeamMembers.vue';
 export default {
     name: 'ContactView',
@@ -34,7 +34,7 @@ export default {
     }],
     components: {
         Hero, 
-        Contact,
+        Contacts,
         TeamMembers
     }
 }
