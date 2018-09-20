@@ -9,6 +9,11 @@ export default {
     metaInfo: {
         title: 'Kontakt | Royal'
     },
+    meta: [{
+      vmid: 'description',
+      name: 'description',
+      content: 'Kontaktirajte nas brzo, mi to volimo.'
+    }],
     components: {
         Contact
     }

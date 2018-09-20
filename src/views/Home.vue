@@ -23,7 +23,12 @@ import Testimonials from '../components/testimonials/Testimonials.vue';
 export default {
   name: 'Home',
   metaInfo: {
-    title: 'Osiguranje i registracija vozila | Royal'
+    title: 'Osiguranje i registracija vozila | Royal',
+    meta: [{
+      vmid: 'description',
+      name: 'description',
+      content: 'Brza, povoljna i jednostavna registracija automobila.'
+    }]
   },
   components: {
     Hero,
