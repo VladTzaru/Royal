@@ -55,3 +55,12 @@ export default {
 }
 </script>
 
+<style lang="scss" scoped>
+@import '../../assets/scss/settings';
+.site-footer {
+    background-color: $dim-text;
+    padding-top: 44px;
+}
+</style>
+
+
