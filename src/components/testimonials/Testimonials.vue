@@ -28,13 +28,6 @@
                         </blockquote>
                     </div>
                 </div>
-                
-                 <!-- Call to action -->
-                <Cta>
-                    <h2 slot="cta-title" class="mb-4">Ako imate pitanja, imamo odgovore.</h2>
-                    <router-link slot="cta-btn" class="btn btn-primary btn-pill" to="/o-nama" tag="button">Kontaktirajte nas</router-link>
-                    <router-link slot="cta-link" class="cta-link" to="/" tag="a">Povežimo se</router-link>
-                </Cta>
             </div>
         </div>
     </section>
@@ -42,12 +35,8 @@
 </template>
 
 <script>
-import Cta from '../Cta.vue';
 export default {
-    name: 'Testimonials',
-    components: {
-        Cta
-    }
+    name: 'Testimonials'
 }
 </script>
 

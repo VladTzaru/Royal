@@ -1,4 +1,5 @@
 <template>
+<section>
     <div class="container py-5">
         <hr class="hr-rule border-secondary">
         <div class="text-center">
@@ -9,6 +10,8 @@
             <slot name="cta-link"></slot>
         </div>
     </div>
+</section>
+
 </template>
 
 <style lang="scss" scoped>

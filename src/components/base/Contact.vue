@@ -1,89 +1,66 @@
 <template>
     <main>
-        <div class="container">
-            <h1 class="display-4 mb-5 py-5 text-center">Kontakt</h1>
+        <div class="clearfix u-space-2">
+      <div class="row">
+        <div class="col-sm-6 col-lg-3 u-ver-divider u-ver-divider--none-lg">
+          <!-- Contacts Info -->
+          <div class="text-center py-5">
+            <span class="u-icon u-icon-primary--air u-icon--lg rounded-circle mb-4">
+              <span class="fa fa-map-marker-alt u-icon__inner"></span>
+            </span>
+            <h2 class="h6 mb-0">Address</h2>
+            <p class="mb-0">153 Williamson Plaza, 09514</p>
+          </div>
+          <!-- End Contacts Info -->
         </div>
-        <div class="bg-skew bg-skew-light">
-            <div class="container">
-                <div class="row justify-content-lg-center">
-                    <div class="col-lg-9">
-                        <p>Molimo popunite formular ispod i javićemo vam se što pre.</p>
-                        <p class="small">Polja označena sa &#42; su obavezna.</p>
-                        <form class="py-4">
-                            <div class="form-group">
-                                <label for="inputName" class="small text-uppercase">Ime &#42;</label>
-                                <input v-model.lazy="userInfo.name" type="text" class="form-control" id="inputName" placeholder="Unesite vaše ime" required="">
-                            </div>
-                            <div class="form-group">
-                                <label for="inputLastname" class="small text-uppercase">Prezime &#42;</label>
-                                <input v-model.lazy="userInfo.lastname" type="text" class="form-control" id="inputLastname" placeholder="Unesite vaše prezime" required="">
-                            </div>
-                            <div class="form-group">
-                                <label for="inputPhone" class="small text-uppercase">Telefon</label>
-                                <input v-model.number.lazy="userInfo.phone" type="number" class="form-control" id="inputPhone" placeholder="Unesite vaš broj telefona">
-                            </div>
-                            <div class="form-group">
-                                <label for="inputEmail" class="small text-uppercase">Email &#42;</label>
-                                <input v-model.lazy="userInfo.email" type="email" class="form-control" id="inputEmail" placeholder="Unesite email adresu" required="">
-                            </div>
-                            <div class="form-group">
-                                <label for="messageTetxarea" class="small text-uppercase">Poruka &#42;</label>
-                                <textarea v-model.lazy="message" class="form-control rounded" id="messageTetxarea" rows="9" placeholder="Unesite poruku" required=""></textarea>
-                            </div>
-                            <button @click.prevent="onSubmit" type="submit" class="btn btn-pill btn-primary">Pošalji</button>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div><!-- end bg-skew -->
+
+        <div class="col-sm-6 col-lg-3 u-ver-divider u-ver-divider--none-lg">
+          <!-- Contacts Info -->
+          <div class="text-center py-5">
+            <span class="u-icon u-icon-primary--air u-icon--lg rounded-circle mb-4">
+              <span class="fa fa-envelope u-icon__inner"></span>
+            </span>
+            <h3 class="h6 mb-0">Email</h3>
+            <p class="mb-0">support@htmlstream.com</p>
+          </div>
+          <!-- End Contacts Info -->
+        </div>
+
+        <div class="col-sm-6 col-lg-3 u-ver-divider u-ver-divider--none-lg">
+          <!-- Contacts Info -->
+          <div class="text-center py-5">
+            <span class="u-icon u-icon-primary--air u-icon--lg rounded-circle mb-4">
+              <span class="fa fa-phone u-icon__inner"></span>
+            </span>
+            <h3 class="h6 mb-0">Phone Number</h3>
+            <p class="mb-0">+1 (062) 109-9222</p>
+          </div>
+          <!-- End Contacts Info -->
+        </div>
+
+        <div class="col-sm-6 col-lg-3">
+          <!-- Contacts Info -->
+          <div class="text-center py-5">
+            <span class="u-icon u-icon-primary--air u-icon--lg rounded-circle mb-4">
+              <span class="fa fa-fax u-icon__inner"></span>
+            </span>
+            <h3 class="h6 mb-0">Fax</h3>
+            <p class="mb-0">+1 (062) 109-9223</p>
+          </div>
+          <!-- End Contacts Info -->
+        </div>
+      </div>
+    </div>
     </main>
 </template>
 
 <script>
 export default {
     name: 'Contact_View',
-    data() {
-        return {
-           userInfo: {
-               name: '',
-               lastname: '',
-               phone: '',
-               email: ''
-           },
-           message: ''
-        }
-    },
-    methods: {
-        onSubmit() {
-            const data = {
-                name: this.userInfo.name,
-                lastname: this.userInfo.lastname,
-                phone: this.userInfo.phone,
-                email: this.userInfo.email,
-                message: this.message
-            };
-            this.postData('https://formspree.io/bvanja.87@gmail.com', data);
-        },
-        postData(url = ``, data = {}) {
-            return fetch(url, {
-                method: "POST",
-                headers: {"Content-Type": "application/json; charset=utf-8"},
-                body: JSON.stringify(data)
-            })
-            .then(res => res.json())
-            .catch(err => console.log(err));
-        }
-    }
 }
 </script>
 
 <style lang="scss" scoped>
 @import '../../assets/scss/settings';
-.disabled {
-  background: $primary !important;
-  pointer-events: none;
-}
-p, label {
-    color: $secondary-text !important;
-}
+
 </style>

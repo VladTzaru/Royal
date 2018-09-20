@@ -10,6 +10,11 @@
   <Services />
   <Features/>
   <Testimonials/>
+  <Cta>
+      <h2 slot="cta-title" class="mb-4">Ako imate pitanja, imamo odgovore.</h2>
+      <router-link slot="cta-btn" class="btn btn-primary btn-pill" to="/o-nama" tag="button">Kontaktirajte nas</router-link>
+      <router-link slot="cta-link" class="cta-link" to="/" tag="a">Povežimo se</router-link>
+  </Cta>
 </main>
 
 </template>
@@ -20,6 +25,7 @@ import Hero from '../components/hero/Hero.vue';
 import Services from '../components/services/Services.vue';
 import Features from '../components/features/Features.vue';
 import Testimonials from '../components/testimonials/Testimonials.vue';
+import Cta from '../components/Cta.vue';
 export default {
   name: 'Home',
   metaInfo: {
@@ -34,7 +40,8 @@ export default {
     Hero,
     Services,
     Features,
-    Testimonials
+    Testimonials,
+    Cta
   }
 }
 </script>
