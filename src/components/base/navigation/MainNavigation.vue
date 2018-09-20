@@ -2,7 +2,7 @@
   <header>
     <div class="container">
       <div class="nav-wrapper">
-        <nav v-scroll="stickyNav" class="navbar navbar-expand-lg">
+        <nav v-scroll="stickyNav" class="navbar navbar-expand-lg" id="mainNav">
          
           <router-link to="/" tag="a" class="navbar-brand">Royal Logo</router-link>
           
@@ -94,6 +94,17 @@ header {
   left: 0;
   transform: translate3d(0, 0, 0);
 }
+
+.navbar-toggler {
+  background-color: transparent;
+  outline: none !important;
+  font-size: 1.4rem;
+  cursor: pointer; 
+  .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='#5e35b1' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  }
+}
+ 
 
 @keyframes ease-in-top {
   from {
