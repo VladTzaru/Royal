@@ -10,7 +10,7 @@
         <router-link to="/kontakt" active-class="active" tag="li" class="nav-item">
             <a class="nav-link text-uppercase">Kontakt</a></router-link>
         <br><br>
-        <button class="btn btn-primary" @click="closeSideNavigation">Close</button>
+        <a id="btn-closeSideNav" class="nav-link text-uppercase btn btn-primary" @click="closeSideNavigation" href="javascript:void(0)">Zatvori</a>
     </nav>
 </template>
 
@@ -77,6 +77,15 @@ export default {
 .disable-scroll {
   overflow: hidden;
   height: 100%; 
+}
+
+#btn-closeSideNav {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-radius: 0;
+    font-size: 12px;
+    width: 100%;
 }
 </style>
 
