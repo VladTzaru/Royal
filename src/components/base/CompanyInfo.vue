@@ -11,11 +11,7 @@
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, quis! Nemo voluptate facere, minima consequuntur tempora quia corrupti? Iste vitae cupiditate dicta, eveniet incidunt accusantium qui aperiam provident soluta dolor?</p>
                         <hr class="hr-rule border-secondary mt-4 mb-5">
                         <h3 class="text-center mb-4">Upoznajte tim</h3>
-                        <div class="row">
-                            <TeamMember v-for="(member, i) in team"
-                            :key="i"
-                            :member="member"/>
-                        </div>
+                        <TeamMembers/>
                     </div>
                 </div>
             </div>
@@ -23,20 +19,11 @@
 </template>
 
 <script>
-import TeamMember from './TeamMember.vue';
+import TeamMembers from '../team/TeamMembers.vue';
 export default {
     name: 'CompanyInfo',
-    data() {
-        return {
-            team: [
-                {name: 'Ratko Bojovic', position: 'CEO', contact: 'ratko@royal.com', imgSrc: 'ratko.jpg'},
-                {name: 'Vladimir Bojovic', position: 'Web Developer', contact: 'vladimir@royal.com', imgSrc: 'vladimir.jpg'},
-                {name: 'Micko Bojovic', position: 'Seljak iz Misevica', contact: 'misevici@royal.com', imgSrc: 'micko.jpg'}
-            ]
-        }
-    },
     components: {
-        TeamMember
+        TeamMembers
     }
 }
 </script>
