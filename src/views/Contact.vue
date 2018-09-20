@@ -25,13 +25,13 @@ import TeamMembers from '../components/team/TeamMembers.vue';
 export default {
     name: 'ContactView',
     metaInfo: {
-        title: 'Kontakt | Royal'
+        title: 'Kontakt | Royal',
+        meta: [{
+            vmid: 'description',
+            name: 'description',
+            content: 'Kontaktirajte nas brzo, mi to volimo.'
+        }],
     },
-    meta: [{
-      vmid: 'description',
-      name: 'description',
-      content: 'Kontaktirajte nas brzo, mi to volimo.'
-    }],
     components: {
         Hero, 
         Contacts,
