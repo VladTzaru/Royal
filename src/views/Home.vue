@@ -12,7 +12,7 @@
   <Testimonials/>
   <Cta>
       <h2 slot="cta-title" class="mb-4">Ako imate pitanja, imamo odgovore.</h2>
-      <router-link slot="cta-btn" class="btn btn-primary btn-pill" to="/o-nama" tag="button">Kontaktirajte nas</router-link>
+      <router-link slot="cta-btn" class="btn btn-primary btn-pill" to="/kontakt" tag="button">Kontaktirajte nas</router-link>
       <router-link slot="cta-link" class="cta-link" to="/" tag="a">Povežimo se</router-link>
   </Cta>
 </main>
