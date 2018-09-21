@@ -5,7 +5,7 @@
       <h1 slot="hero-title" class="display-4">Royal &mdash; agencija za osiguranje vozila</h1>
       <p slot="hero-text" class="lead mb-4">Da Vam tehnički pregled ne bude više noćna mora, nudimo Vam najbrže i najprofesionalnije usluge tehničkog pregleda.</p>
       <router-link slot="hero-btn" class="btn btn-primary btn-pill" to="/usluge" tag="button">Saznaj više</router-link>
-      <img slot="hero-img" src="../assets/img/wireless.jpg" class="d-none d-lg-block img-fluid img-thumbnail" alt="Creation process">
+      <img slot="hero-img" src="../assets/img/business.jpg" class="d-none d-lg-block img-fluid img-thumbnail" alt="Creation process">
     </Hero>
     <Services />
     <Features/>

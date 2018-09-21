@@ -14,7 +14,7 @@
   }
   
   .bg-skew-light:before {
-      background-color: $secondary-light;
+      background: linear-gradient(90deg, $secondary-light, $primary-light)
   }
   
   .btn {
