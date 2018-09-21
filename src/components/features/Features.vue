@@ -10,7 +10,7 @@
             
             <Feature
                 title="Registracija vozila bez muke."
-                description="Registrovati vozilo možete od sada i dok ste na radnom mestu."
+                description="Registrovati vozilo možete od sada i dok ste na radnom mestu. Na Vama je samo da nas pozovete i zakazete termin."
                 imgSrc="woman.jpg"
                 position="img-left"
                 alt="Registracija vozila | Royal"/>
