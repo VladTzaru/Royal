@@ -1,5 +1,5 @@
 <template>
-    <div class="col-sm-6 col-lg-3 contact-divider">
+    <div class="col-sm-6 col-lg-4 contact-divider">
         <div class="text-center py-5">
             <span class="contact-icon contact-icon-blue mb-4">
                 <span :class="contact.icon" class="icon-inner"></span>

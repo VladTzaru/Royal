@@ -2,18 +2,18 @@
     <section>
         <div class="container">
             <Feature
-                title="Radimo kako znamo i umemo"
-                description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis eum aperiam eos mollitia asperiores doloribus, quod non deserunt autem sed? "
+                title="Brzo i povoljno."
+                description="U saradnji sa DDOR osiguranjem nudimo Vam sva imovinska, putna, vizna i životna osiguranja. Brzo i povoljno ih možete ugovoriti u našoj agenciji."
                 imgSrc="people.jpg"
                 position="img-right"
-                alt="Finance results"/>
+                alt="Polisa osiguranja | Royal"/>
             
             <Feature
-                title="Ratomire, ovo izgleda cool!"
-                description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis eum aperiam eos mollitia asperiores doloribus, quod non deserunt autem sed? "
+                title="Registracija vozila bez muke."
+                description="Registrovati vozilo možete od sada i dok ste na radnom mestu."
                 imgSrc="woman.jpg"
                 position="img-left"
-                alt="Woman is nice"/>
+                alt="Registracija vozila | Royal"/>
         </div>
     </section>
 </template>

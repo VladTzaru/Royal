@@ -7,24 +7,22 @@
                     <div class="col-md">
                         <blockquote class="bg-white rounded mb-4 p-4 p-lg-5 text-center">
                             <img class="avatar avatar-frame mb-4" src="../../assets/img/leo-gill.jpg" alt="Leo Gill">
-                            <p class="text-secondary">Boost theme is awesome! We've seen amazing results already.</p>
-                            <cite class="small text-uppercase">Leo Gill</cite>
+                            <p class="text-secondary">Profesionalan pristup radu i veoma prijatni ljudi.</p>
+                            <cite class="small text-uppercase">Aleksandar Milić</cite>
                         </blockquote>
                     </div>
                     <div class="col-md">
                         <blockquote class="bg-white rounded mb-4 p-4 p-lg-5 text-center">
                             <img class="avatar avatar-frame mb-4" src="../../assets/img/renee-sims.jpg" alt="Renee Sims">
-                            <p class="text-secondary">It really saves me time and effort. Boost theme is exactly what
-                                our
-                                business has been lacking.</p>
-                            <cite class="small text-uppercase">Renee Sims</cite>
+                            <p class="text-secondary">Prezadovoljna! Registracija vozila nikad nije bila jednostavnija. Hvala Royal timu!</p>
+                            <cite class="small text-uppercase">Ana Pavlović</cite>
                         </blockquote>
                     </div>
                     <div class="col-md">
                         <blockquote class="bg-white rounded mb-4 p-4 p-lg-5 text-center">
                             <img class="avatar avatar-frame mb-4" src="../../assets/img/dallas-kwok.jpg" alt="Dallas Kwok">
-                            <p class="text-secondary">Boost theme impressed me on multiple levels.</p>
-                            <cite class="small text-uppercase">Dallas Kwok</cite>
+                            <p class="text-secondary">Sjajni ljudi, veoma uslužni i profesionalni.</p>
+                            <cite class="small text-uppercase">Dušan Purić</cite>
                         </blockquote>
                     </div>
                 </div>

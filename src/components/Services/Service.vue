@@ -1,5 +1,5 @@
 <template>   
-<div class="col-sm-6 col-md-4 mb-4 mb-md-5">
+<div class="col-sm-6 mb-4 mb-md-5">
     <span class="icon icon-primary mb-3">
         <i class="icon-inner" :class="service.icon" aria-hidden="true"></i>
     </span>

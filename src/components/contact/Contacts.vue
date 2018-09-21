@@ -18,10 +18,9 @@ export default {
     data() {
       return {
         contactInfo: [
-            {category: 'Address', content: '153 Williamson Plaza, 09514', icon: 'fa fa-map-marker-alt'},
+            {category: 'Adresa', content: 'Bulevar kralja Petra I 23, Novi Sad', icon: 'fa fa-map-marker-alt'},
             {category: 'Email', content: 'support@royal.com', icon: 'fa fa-envelope'},
-            {category: 'Phone Number', content: '+381 (65) 139-9222', icon: 'fa fa-phone'},
-            {category: 'Fax', content: '+381 (65) 139-9222', icon: 'fa fa-fax'}
+            {category: 'Telefon', content: "069-151-3665 | 069-151-3666", icon: 'fa fa-phone'}
         ]
       }
     },
