@@ -3,34 +3,34 @@
         <div class="container">
             <div class="row justify-content-md-between">
                 <div class="col-sm-12 col-md-4 mb-4">
-                    <h3 class="h5 mb-3">Royal</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, delectus quos sed rem cupiditate quam consectetur temporibus.</p>
+                    <h3 class="h5 mb-3">Royal d.o.o.</h3>
+                    <p>Bulevar kralja Petra I 23, Novi Sad</p>
+                    <p><a href="tel:069-151-3665">069-151-3665</a></p>
+                    <p><a href="tel:069-151-3666">069-151-3666</a></p>
+                    <a href="mailto:info@royal.com">info@royal.com</a>
                 </div>
                 <div class="col-4 col-md-2 mb-4">
-                    <h3 class="h5 mb-3">About</h3>
+                    <h3 class="h5 mb-3">O nama</h3>
                     <ul class="nav flex-column">
-                        <li class="mb-1"><a href="#">About</a></li>
-                        <li class="mb-1"><a href="#">Team</a></li>
+                        <li class="mb-1"><a href="#">Naš tim</a></li>
                         <li class="mb-1"><a href="#">Careers</a></li>
                         <li class="mb-1"><a href="#">Blog</a></li>
                     </ul>
                 </div>
                 <div class="col-4 col-md-2 mb-4">
-                    <h3 class="h5 mb-3">Services</h3>
+                    <h3 class="h5 mb-3">Usluge</h3>
                     <ul class="nav flex-column">
-                        <li class="mb-1"><a href="#">Design</a></li>
-                        <li class="mb-1"><a href="#">Themes</a></li>
-                        <li class="mb-1"><a href="#">Branding</a></li>
-                        <li class="mb-1"><a href="#">CMS</a></li>
+                        <li class="mb-1"><a href="#">Registracija vozila</a></li>
+                        <li class="mb-1"><a href="#">Tehnički pregled vozila</a></li>
+                        <li class="mb-1"><a href="#">Osiguranje</a></li>
+                        <li class="mb-1"><a href="#">Pay spot</a></li>
                     </ul>
                 </div>
                 <div class="col-4 col-md-2 mb-4">
-                    <h3 class="h5 mb-3">Help</h3>
+                    <h3 class="h5 mb-3">Pomoć</h3>
                     <ul class="nav flex-column">
                         <li class="mb-1"><a href="#">FAQ</a></li>
-                        <li class="mb-1"><a href="#">Contact</a></li>
-                        <li class="mb-1"><a href="#">Phones</a></li>
-                        <li class="mb-1"><a href="#">Chat</a></li>
+                        <li class="mb-1"><a href="#">Kontakt</a></li>
                     </ul>
                 </div>
             </div>
