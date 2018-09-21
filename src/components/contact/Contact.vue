@@ -41,7 +41,7 @@ export default {
 }
 
 .contact-icon-blue {
-    color: $secondary;
+    color: $secondary-light;
     background: #fff;
 }
 
