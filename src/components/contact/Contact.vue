@@ -59,8 +59,4 @@ export default {
     transition: $transition-primary;
     box-shadow: $box-shadow-primary;
 }
-
-h2, p {
-  color: $secondary-text;
-}
 </style>
