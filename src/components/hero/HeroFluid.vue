@@ -7,7 +7,6 @@
                     <div class="col-md-6">
                         <h1 class="display-4 text-white">Mi smo mali tim sa velikim idejama.</h1>
                         <p class="lead text-white mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias magni minus sint eligendi?</p>
-                        <router-link slot="hero-btn" class="btn btn-primary btn-pill" to="/kontakt" tag="button">Kontaktirajte nas</router-link>
                     </div>
                 </div>
             </div>
@@ -23,16 +22,7 @@ export default {
 
 <style lang="scss" scoped>
 @import '../../assets/scss/settings';
-.btn-primary {
-    background-color: #fff;
-    color: $text-primary;
-     &:hover, &:focus, &:active, &:visited {
-      background-color: #fff !important;
-      box-shadow: $box-shadow-hover;
-      color: $text-primary !important;
-      outline: none !important;
-    }
-}
+
 .hero-cover {
     background-position: 50%;
     background-repeat: no-repeat;

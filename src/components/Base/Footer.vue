@@ -59,7 +59,7 @@ export default {
 <style lang="scss" scoped>
 @import '../../assets/scss/settings';
 .site-footer {
-    background-color: $dim-text;
+    background: $gray-background;
     padding-top: 44px;
 }
 </style>
