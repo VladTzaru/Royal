@@ -9,7 +9,7 @@
             </Hero>
             <Contacts class="mt-4" />
             <div class="container mt-5">
-                <div class="row justify-content-center">
+                <div id="tim" class="row justify-content-center">
                     <div class="col-lg-9"><TeamMembers /></div>
                 </div>
             </div>

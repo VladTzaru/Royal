@@ -15,7 +15,7 @@
             <Cta>
                 <h2 slot="cta-title" class="mb-4">Saznajte više o nama.</h2>
                 <router-link slot="cta-btn" class="btn btn-primary btn-pill" to="/o-nama" tag="button">Pogledaj</router-link>
-                <router-link slot="cta-link" class="cta-link" to="/o-nama" tag="a">Saznaj više</router-link>
+                <router-link slot="cta-link" class="cta-link" :to="info" tag="a">Saznaj više</router-link>
             </Cta>
 
         </div>
@@ -35,7 +35,11 @@ export default {
                 {title: 'Tehnički pregled vozila', description: 'Sprovođenje tehničkog pregleda vozila bez Vašeg prisustva.', icon: 'fas fa-wrench'},
                 {title: 'Osiguranje ', description: "Iskoristite mogućnost povoljnijeg osiguranja Vašeg vozila.", icon: 'fas fa-hand-holding-heart'},
                 {title: 'Pay spot', description: 'Brzo i lako plaćanje svih računa. Komunalije, Telekom, mobilni operateri, Srbijagas...', icon: 'fas fa-money-bill-wave'}
-            ]
+            ],
+            info: {
+                name: 'o-nama',
+                hash: '#info'
+            }
         }
     },
     components: {

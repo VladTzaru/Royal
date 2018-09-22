@@ -2,7 +2,7 @@
 <transition name="slide-left" appear>
   <main>
     <HeroFluid/>
-    <CompanyInfo/>
+    <CompanyInfo id="info"/>
   </main>
 </transition>
 
