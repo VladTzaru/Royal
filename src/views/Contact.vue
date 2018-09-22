@@ -2,17 +2,15 @@
     <transition name="slide-top" appear>
         <main>
             <Hero>
-                <h1 slot="hero-title" class="display-4">Imate pitanje? Kontaktirajte nas.</h1>
-                <p slot="hero-text" class="lead mb-4">Trudićemo se da Vam odgovorimo u najkraćem vremenskom roku.</p>
+                <h1 slot="hero-title" class="display-4">Kontakt</h1>
+                <p slot="hero-text" class="lead mb-4">Obratite nam se ukoliko imate bilo kakvih pitanja, trudićemo se da Vam odgovorimo u najkraćem vremenskom roku.</p>
                 <img slot="hero-img" src="../assets/img/contact.jpg" class="d-lg-block img-fluid img-thumbnail"
-                    alt="Kontakt">
+                    alt="Kontakt | Royal">
             </Hero>
-            <div class="bg-skew bg-skew-light">
-                <Contacts />
-                <div class="container mt-5">
-                    <div class="row justify-content-center">
-                        <div class="col-lg-9"><TeamMembers /></div>
-                    </div>
+            <Contacts class="mt-4" />
+            <div class="container mt-5">
+                <div class="row justify-content-center">
+                    <div class="col-lg-9"><TeamMembers /></div>
                 </div>
             </div>
         </main>
@@ -30,7 +28,7 @@ export default {
         meta: [{
             vmid: 'description',
             name: 'description',
-            content: 'Kontaktirajte nas brzo, mi to volimo.'
+            content: 'Ukoliko imate bilo kakva pitanja vezana uz naše usluge, slobodno nas kontaktirajte.'
         }],
     },
     components: {

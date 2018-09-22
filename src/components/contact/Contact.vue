@@ -4,7 +4,7 @@
             <span class="contact-icon contact-icon-blue mb-4">
                 <span :class="contact.icon" class="icon-inner"></span>
             </span>
-            <h2 class="h6 mb-0">{{contact.category}}</h2>
+            <h2 class="h6 mb-1">{{contact.category}}</h2>
             <p class="mb-0">{{contact.content}}</p>
         </div>
     </div>
