@@ -1,17 +1,19 @@
 <template>
+    <div @click="closeSideNavigation" :class="{overlayMask: show}">
+      <nav @click.stop id="sideNav" class="nav flex-column" :class="{ sideNavShow: show }">
+          <router-link to="/" tag="a" class="navbar-brand">Royal Logo</router-link>
+          <br>
+          <router-link to="/o-nama" active-class="active" tag="li" class="nav-item">
+              <a class="nav-link text-uppercase">O nama</a></router-link>
+          <router-link to="/usluge" active-class="active" tag="li" class="nav-item">
+              <a class="nav-link text-uppercase">Usluge</a></router-link>
+          <router-link to="/kontakt" active-class="active" tag="li" class="nav-item">
+              <a class="nav-link text-uppercase">Kontakt</a></router-link>
+          <br><br>
+          <a id="btn-closeSideNav" class="nav-link text-uppercase btn btn-primary" @click="closeSideNavigation" href="javascript:void(0)">Zatvori</a>
+      </nav>
+    </div>
 
-    <nav id="sideNav" class="nav flex-column" :class="{ sideNavShow: show }">
-        <router-link to="/" tag="a" class="navbar-brand">Royal Logo</router-link>
-        <br>
-        <router-link to="/o-nama" active-class="active" tag="li" class="nav-item">
-            <a class="nav-link text-uppercase">O nama</a></router-link>
-        <router-link to="/usluge" active-class="active" tag="li" class="nav-item">
-            <a class="nav-link text-uppercase">Usluge</a></router-link>
-        <router-link to="/kontakt" active-class="active" tag="li" class="nav-item">
-            <a class="nav-link text-uppercase">Kontakt</a></router-link>
-        <br><br>
-        <a id="btn-closeSideNav" class="nav-link text-uppercase btn btn-primary" @click="closeSideNavigation" href="javascript:void(0)">Zatvori</a>
-    </nav>
 </template>
 
 <script>
@@ -86,5 +88,17 @@ export default {
     border-radius: 0;
     font-size: 12px;
     width: 100%;
+}
+
+.overlayMask {
+  position: fixed;
+  transition: $transition-primary;
+  z-index: 9998;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, .5);
+  display: table;
 }
 </style>
