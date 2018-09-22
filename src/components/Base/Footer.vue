@@ -2,35 +2,35 @@
     <footer class="site-footer mt-5">
         <div class="container">
             <div class="row justify-content-md-between">
-                <div class="col-sm-12 col-md-4 mb-4">
+                <div class="col-sm-12 col-md-5 mb-4">
                     <h3 class="h5 mb-3">Royal d.o.o.</h3>
-                    <p>Bulevar kralja Petra I 23, Novi Sad</p>
-                    <p><a href="tel:069-151-3665">069-151-3665</a></p>
-                    <p><a href="tel:069-151-3666">069-151-3666</a></p>
-                    <a href="mailto:info@royal.com">info@royal.com</a>
-                </div>
-                <div class="col-4 col-md-2 mb-4">
-                    <h3 class="h5 mb-3">O nama</h3>
-                    <ul class="nav flex-column">
-                        <li class="mb-1"><a href="#">Naš tim</a></li>
-                        <li class="mb-1"><a href="#">Careers</a></li>
-                        <li class="mb-1"><a href="#">Blog</a></li>
+                    <p class="mb-0">Agencija za registraciju vozila.</p>
+                    <p>PIB: 110986388</p>
+                     <ul class="nav flex-column">
+                        <li class="mb-1"><a href="tel:069-151-3665">069-151-3665</a></li>
+                        <li class="mb-1"><a href="tel:069-151-3666">069-151-3666</a></li>
+                        <li class="mb-1"><a href="mailto:info@royal.com">info@royal.com</a></li>
                     </ul>
                 </div>
-                <div class="col-4 col-md-2 mb-4">
+                <div class="col-sm-12 col-md-4 mb-4">
                     <h3 class="h5 mb-3">Usluge</h3>
                     <ul class="nav flex-column">
-                        <li class="mb-1"><a href="#">Registracija vozila</a></li>
-                        <li class="mb-1"><a href="#">Tehnički pregled vozila</a></li>
-                        <li class="mb-1"><a href="#">Osiguranje</a></li>
-                        <li class="mb-1"><a href="#">Pay spot</a></li>
+                        <li class="mb-1"><a href="javascript:void(0)">Registracija vozila</a></li>
+                        <li class="mb-1"><a href="javascript:void(0)">Tehnički pregled</a></li>
+                        <li class="mb-1"><a href="javascript:void(0)">Ugovaranje polise osiguranja</a></li>
+                        <li class="mb-1"><a href="javascript:void(0)">Pay spot</a></li>
                     </ul>
                 </div>
-                <div class="col-4 col-md-2 mb-4">
-                    <h3 class="h5 mb-3">Pomoć</h3>
+                <div class="col-sm-12 col-md-3 mb-4">
+                    <h3 class="h5 mb-3">O nama</h3>
                     <ul class="nav flex-column">
-                        <li class="mb-1"><a href="#">FAQ</a></li>
-                        <li class="mb-1"><a href="#">Kontakt</a></li>
+                        <router-link class="mb-1" tag="li" to="/o-nama">
+                            <a>Naš tim</a>
+                        </router-link>
+                        <router-link class="mb-1" tag="li" to="/kontakt">
+                            <a>Kontakt</a>
+                        </router-link>
+                        
                     </ul>
                 </div>
             </div>
@@ -38,12 +38,7 @@
             <hr class="m-0">
 
             <div class="d-flex flex-column flex-sm-row justify-content-sm-between align-items-center mt-4">
-                <p class="small text-muted">&copy; Tzaru 2018</p>
-                <ul class="list-inline">
-                    <li class="list-inline-item">
-                        <a href="#"><i class="fab fa-facebook-f"></i></a>
-                    </li>
-                </ul>
+                <p class="small text-muted">&copy; Royal {{getCurrentYear()}}</p>
             </div>
         </div>
     </footer>
@@ -51,7 +46,13 @@
 
 <script>
 export default {
-    name: 'Footer'
+    name: 'Footer',
+    methods: {
+        getCurrentYear() {
+            const d = new Date();
+            return d.getFullYear();
+        }
+    }
 }
 </script>
 
@@ -62,5 +63,3 @@ export default {
     padding-top: 44px;
 }
 </style>
-
-

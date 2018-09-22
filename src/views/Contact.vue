@@ -4,7 +4,7 @@
             <Hero>
                 <h1 slot="hero-title" class="display-4">Imate pitanje? Kontaktirajte nas.</h1>
                 <p slot="hero-text" class="lead mb-4">Trudićemo se da Vam odgovorimo u najkraćem vremenskom roku.</p>
-                <img slot="hero-img" src="../assets/img/contact.jpg" class="d-none d-lg-block img-fluid img-thumbnail"
+                <img slot="hero-img" src="../assets/img/contact.jpg" class="d-lg-block img-fluid img-thumbnail"
                     alt="Kontakt">
             </Hero>
             <div class="bg-skew bg-skew-light">
