@@ -6,21 +6,21 @@
                 <div class="row py-5">
                     <div class="col-md">
                         <blockquote class="bg-white rounded mb-4 p-4 p-lg-5 text-center">
-                            <img class="avatar avatar-frame mb-4" src="../../assets/img/leo-gill.jpg" alt="Leo Gill | Royal">
+                            <img class="avatar avatar-frame mb-4" src="../../assets/img/leo-gill-min.jpg" alt="Leo Gill | Royal">
                             <p class="text-secondary">Profesionalan pristup radu i veoma prijatni ljudi.</p>
                             <cite class="small text-uppercase">Aleksandar Milić</cite>
                         </blockquote>
                     </div>
                     <div class="col-md">
                         <blockquote class="bg-white rounded mb-4 p-4 p-lg-5 text-center">
-                            <img class="avatar avatar-frame mb-4" src="../../assets/img/renee-sims.jpg" alt="Renee Sims |Royal">
+                            <img class="avatar avatar-frame mb-4" src="../../assets/img/renee-sims-min.jpg" alt="Renee Sims |Royal">
                             <p class="text-secondary">Prezadovoljna! Registracija vozila nikad nije bila jednostavnija. Hvala Royal timu!</p>
                             <cite class="small text-uppercase">Ana Pavlović</cite>
                         </blockquote>
                     </div>
                     <div class="col-md">
                         <blockquote class="bg-white rounded mb-4 p-4 p-lg-5 text-center">
-                            <img class="avatar avatar-frame mb-4" src="../../assets/img/dallas-kwok.jpg" alt="Dallas Kwok | Royal">
+                            <img class="avatar avatar-frame mb-4" src="../../assets/img/dallas-kwok-min.jpg" alt="Dallas Kwok | Royal">
                             <p class="text-secondary">Sjajni ljudi, veoma uslužni i profesionalni.</p>
                             <cite class="small text-uppercase">Dušan Purić</cite>
                         </blockquote>

@@ -1,6 +1,6 @@
 <template>
     <section>
-        <div class="hero-cover d-flex align-items-center position-relative py-5 py-lg-6 mb-4" :style="{'background-image': 'url(' + require(`@/assets/img/work.jpg`) + ')'}">
+        <div class="hero-cover d-flex align-items-center position-relative py-5 py-lg-6 mb-4" :style="{'background-image': 'url(' + require(`@/assets/img/work-min.jpg`) + ')'}">
             <div class="hero-overlay hero-primary opacity-8"></div>
             <div class="container">
                 <div class="row">

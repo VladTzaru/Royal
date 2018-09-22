@@ -4,7 +4,7 @@
             <Hero>
                 <h1 slot="hero-title" class="display-4">Kontakt</h1>
                 <p slot="hero-text" class="lead mb-4">Obratite nam se ukoliko imate bilo kakvih pitanja, trudićemo se da Vam odgovorimo u najkraćem vremenskom roku.</p>
-                <img slot="hero-img" src="../assets/img/contact.jpg" class="d-lg-block img-fluid img-thumbnail"
+                <img slot="hero-img" src="../assets/img/contact-min.jpg" class="d-lg-block img-fluid img-thumbnail"
                     alt="Kontakt | Royal">
             </Hero>
             <Contacts class="mt-4" />
