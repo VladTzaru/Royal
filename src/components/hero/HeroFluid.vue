@@ -17,10 +17,9 @@
 
 <script>
 export default {
-    name: 'HeroFluid'
+  name: 'HeroFluid'
 }
 </script>
-
 
 <style lang="scss" scoped>
 @import '../../assets/scss/settings';
@@ -53,4 +52,3 @@ export default {
     background-color: $primary !important;
 }
 </style>
-

@@ -16,36 +16,36 @@
 
 <script>
 export default {
-    name: 'SideNavigation',
-    props: {
-        show: {
-            type: Boolean,
-            required: true
-        }
-    },
-    watch: {
-        show(isToggled) {
-            if(isToggled) {
-                document.documentElement.style.overflow = 'hidden';
-            } else {
-                document.documentElement.style.overflow = 'auto';
-            }
-        },
-        $route (to, from) {
-            let isToggled = this.show;
-            isToggled = false;
-            this.$emit('wasClicked', isToggled);
-        } 
-    },
-    methods: {
-        closeSideNavigation(e) {
-            let isToggled = this.show;
-            if(isToggled) {
-                isToggled = false;
-                this.$emit('wasToggled', isToggled);
-            }
-        }
+  name: 'SideNavigation',
+  props: {
+    show: {
+      type: Boolean,
+      required: true
     }
+  },
+  watch: {
+    show (isToggled) {
+      if (isToggled) {
+        document.documentElement.style.overflow = 'hidden'
+      } else {
+        document.documentElement.style.overflow = 'auto'
+      }
+    },
+    $route (to, from) {
+      let isToggled = this.show
+      isToggled = false
+      this.$emit('wasClicked', isToggled)
+    }
+  },
+  methods: {
+    closeSideNavigation (e) {
+      let isToggled = this.show
+      if (isToggled) {
+        isToggled = false
+        this.$emit('wasToggled', isToggled)
+      }
+    }
+  }
 }
 </script>
 
@@ -71,12 +71,12 @@ export default {
   }
 
 .sideNavShow {
-  transform: translateX(300px); 
+  transform: translateX(300px);
 }
 
 .disable-scroll {
   overflow: hidden;
-  height: 100%; 
+  height: 100%;
 }
 
 #btn-closeSideNav {
@@ -88,4 +88,3 @@ export default {
     width: 100%;
 }
 </style>
-

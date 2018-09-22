@@ -1,22 +1,22 @@
-<template>   
+<template>
 <div class="col-sm-6 mb-4 mb-md-5">
     <span class="icon icon-primary mb-3">
         <i class="icon-inner" :class="service.icon" aria-hidden="true"></i>
     </span>
     <h3 class="h4">{{service.title}}</h3>
     <p class="mb-md-0">{{service.description}}</p>
-</div>       
+</div>
 </template>
 
 <script>
 export default {
-    name: 'Service',
-    props: {
-        service: {
-            type: Object,
-            required: true
-        }
-    } 
+  name: 'Service',
+  props: {
+    service: {
+      type: Object,
+      required: true
+    }
+  }
 }
 </script>
 
@@ -55,5 +55,3 @@ h3, p {
   }
 }
 </style>
-
-

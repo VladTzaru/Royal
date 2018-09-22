@@ -15,13 +15,13 @@
 
 <script>
 export default {
-    name: 'TeamMember',
-    props: {
-        member: {
-            type: Object,
-            required: true
-        }
+  name: 'TeamMember',
+  props: {
+    member: {
+      type: Object,
+      required: true
     }
+  }
 }
 </script>
 
@@ -46,5 +46,3 @@ export default {
     }
 }
 </style>
-
-

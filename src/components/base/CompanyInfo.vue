@@ -19,12 +19,11 @@
 </template>
 
 <script>
-import TeamMembers from '../team/TeamMembers.vue';
+import TeamMembers from '../team/TeamMembers.vue'
 export default {
-    name: 'CompanyInfo',
-    components: {
-        TeamMembers
-    }
+  name: 'CompanyInfo',
+  components: {
+    TeamMembers
+  }
 }
 </script>
-

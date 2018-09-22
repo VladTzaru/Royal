@@ -24,28 +24,28 @@
 </template>
 
 <script>
-import Service from './Service.vue';
-import Cta from '../Cta.vue';
+import Service from './Service.vue'
+import Cta from '../Cta.vue'
 export default {
-    name: 'Services',
-    data() {
-        return {
-            services: [
-                {title: 'Registracija vozila', description: 'Inače neugodan i dug proces je konačno postao jednostavan i povoljan.', icon: 'fas fa-car'},
-                {title: 'Tehnički pregled vozila', description: 'Sprovođenje tehničkog pregleda vozila bez Vašeg prisustva.', icon: 'fas fa-wrench'},
-                {title: 'Osiguranje ', description: "Iskoristite mogućnost povoljnijeg osiguranja Vašeg vozila.", icon: 'fas fa-hand-holding-heart'},
-                {title: 'Pay spot', description: 'Brzo i lako plaćanje svih računa. Komunalije, Telekom, mobilni operateri, Srbijagas...', icon: 'fas fa-money-bill-wave'}
-            ],
-            info: {
-                name: 'o-nama',
-                hash: '#info'
-            }
-        }
-    },
-    components: {
-        Service,
-        Cta
+  name: 'Services',
+  data () {
+    return {
+      services: [
+        { title: 'Registracija vozila', description: 'Inače neugodan i dug proces je konačno postao jednostavan i povoljan.', icon: 'fas fa-car' },
+        { title: 'Tehnički pregled vozila', description: 'Sprovođenje tehničkog pregleda vozila bez Vašeg prisustva.', icon: 'fas fa-wrench' },
+        { title: 'Osiguranje ', description: 'Iskoristite mogućnost povoljnijeg osiguranja Vašeg vozila.', icon: 'fas fa-hand-holding-heart' },
+        { title: 'Pay spot', description: 'Brzo i lako plaćanje svih računa. Komunalije, Telekom, mobilni operateri, Srbijagas...', icon: 'fas fa-money-bill-wave' }
+      ],
+      info: {
+        name: 'o-nama',
+        hash: '#info'
+      }
     }
+  },
+  components: {
+    Service,
+    Cta
+  }
 }
 </script>
 
@@ -55,5 +55,3 @@ h2.mb-4 {
     color: $secondary-text;
 }
 </style>
-
-

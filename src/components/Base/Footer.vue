@@ -30,7 +30,7 @@
                         <router-link class="mb-1" tag="li" to="/kontakt">
                             <a>Kontakt</a>
                         </router-link>
-                        
+
                     </ul>
                 </div>
             </div>
@@ -46,13 +46,13 @@
 
 <script>
 export default {
-    name: 'Footer',
-    methods: {
-        getCurrentYear() {
-            const d = new Date();
-            return d.getFullYear();
-        }
+  name: 'Footer',
+  methods: {
+    getCurrentYear () {
+      const d = new Date()
+      return d.getFullYear()
     }
+  }
 }
 </script>
 

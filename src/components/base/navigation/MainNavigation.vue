@@ -3,9 +3,9 @@
     <div class="container">
       <div class="nav-wrapper">
         <nav v-scroll="stickyNav" class="navbar navbar-expand-lg" id="mainNav">
-         
+
           <router-link to="/" tag="a" class="navbar-brand">Royal Logo</router-link>
-          
+
           <button @click="isToggled = !isToggled" class="navbar-toggler" type="button" aria-controls="mainNav"
             aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -35,10 +35,10 @@
 </template>
 
 <script>
-import SideNavigation from './SideNavigation.vue';
+import SideNavigation from './SideNavigation.vue'
 export default {
   name: 'MainNavigation',
-  data() {
+  data () {
     return {
       isToggled: false
     }
@@ -47,11 +47,11 @@ export default {
     SideNavigation
   },
   methods: {
-    stickyNav(evt, el) {
+    stickyNav (evt, el) {
       if (window.scrollY > 550) {
-        el.classList.add('navbar-sticky');
+        el.classList.add('navbar-sticky')
       } else {
-        el.classList.remove('navbar-sticky');
+        el.classList.remove('navbar-sticky')
       }
     }
   }
@@ -99,19 +99,18 @@ header {
   background-color: transparent;
   outline: none !important;
   font-size: 1.4rem;
-  cursor: pointer; 
+  cursor: pointer;
   .navbar-toggler-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='#5e35b1' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
   }
 }
- 
 
 @keyframes ease-in-top {
   from {
-    transform: translateY(-84.44px); 
+    transform: translateY(-84.44px);
   }
   to {
-    transform: translateY(0); 
-  } 
+    transform: translateY(0);
+  }
 }
 </style>

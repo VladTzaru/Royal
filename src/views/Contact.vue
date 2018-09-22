@@ -18,24 +18,23 @@
 </template>
 
 <script>
-import Hero from '../components/hero/Hero.vue';
-import Contacts from '../components/contact/Contacts.vue';
-import TeamMembers from '../components/team/TeamMembers.vue';
+import Hero from '../components/hero/Hero.vue'
+import Contacts from '../components/contact/Contacts.vue'
+import TeamMembers from '../components/team/TeamMembers.vue'
 export default {
-    name: 'ContactView',
-    metaInfo: {
-        title: 'Kontakt | Royal',
-        meta: [{
-            vmid: 'description',
-            name: 'description',
-            content: 'Ukoliko imate bilo kakva pitanja vezana uz naše usluge, slobodno nas kontaktirajte.'
-        }],
-    },
-    components: {
-        Hero, 
-        Contacts,
-        TeamMembers
-    }
+  name: 'ContactView',
+  metaInfo: {
+    title: 'Kontakt | Royal',
+    meta: [{
+      vmid: 'description',
+      name: 'description',
+      content: 'Ukoliko imate bilo kakva pitanja vezana uz naše usluge, slobodno nas kontaktirajte.'
+    }]
+  },
+  components: {
+    Hero,
+    Contacts,
+    TeamMembers
+  }
 }
 </script>
-
