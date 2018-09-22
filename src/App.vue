@@ -7,8 +7,8 @@
 </template>
 
 <script>
-import MainNavigation from '@/components/base/navigation/MainNavigation.vue';
-import Footer from '@/components/base/Footer.vue';
+import MainNavigation from '@/components/base/navigation/MainNavigation.vue'
+import Footer from '@/components/base/Footer.vue'
 export default {
   metaInfo: {
     title: 'Royal | Osiguranje i registracija vozila | Novi Sad'
@@ -32,5 +32,3 @@ export default {
   }
 }
 </style>
-
-

@@ -13,41 +13,41 @@
 
 <script>
 export default {
-    name: 'Feature',
-    props: {
-        title: {
-            type: String,
-            required: true
-        },
-        description: {
-            type: String,
-            required: true
-        },
-        imgSrc: {
-            type: String,
-            required: true
-        },
-        position: {
-            type: String,
-            required: true
-        },
-        alt: {
-            type: String,
-            required: true
-        }
+  name: 'Feature',
+  props: {
+    title: {
+      type: String,
+      required: true
     },
-    methods: {
-        setPosition() {
-            const setup = [];
-            if (this.position === 'img-right') {
-                setup.push.apply(setup, ['order-lg-1', 'order-lg-2']);
-                return setup;
-            } else {
-                setup.push.apply(setup, ['order-lg-2', 'order-lg-1']);
-                return setup;
-            }
-        }
+    description: {
+      type: String,
+      required: true
+    },
+    imgSrc: {
+      type: String,
+      required: true
+    },
+    position: {
+      type: String,
+      required: true
+    },
+    alt: {
+      type: String,
+      required: true
     }
+  },
+  methods: {
+    setPosition () {
+      const setup = []
+      if (this.position === 'img-right') {
+        setup.push('order-lg-1', 'order-lg-2')
+        return setup
+      } else {
+        setup.push('order-lg-2', 'order-lg-1')
+        return setup
+      }
+    }
+  }
 }
 </script>
 
@@ -57,6 +57,3 @@ h2 {
     color: $primary;
 }
 </style>
-
-
-

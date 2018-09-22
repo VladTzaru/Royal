@@ -7,23 +7,23 @@
                 imgSrc="people.jpg"
                 position="img-right"
                 alt="Polisa osiguranja | Royal"/>
-            
+
             <Feature
                 title="Registracija vozila bez muke."
                 description="Registrovati vozilo možete od sada i dok ste na radnom mestu. Na Vama je samo da nas pozovete i zakazete termin."
                 imgSrc="man.jpg"
                 position="img-left"
-                alt="Registracija vozila | Royal"/>
+                alt="Zadovoljna mušterija | Royal"/>
         </div>
     </section>
 </template>
 
 <script>
-import Feature from './Feature.vue';
+import Feature from './Feature.vue'
 export default {
-    name: 'Features',
-    components: {
-        Feature
-    }
+  name: 'Features',
+  components: {
+    Feature
+  }
 }
 </script>

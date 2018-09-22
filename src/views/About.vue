@@ -10,12 +10,12 @@
 
 <script>
 
-import HeroFluid from '../components/hero/HeroFluid.vue';
-import CompanyInfo from '../components/base/CompanyInfo.vue';
+import HeroFluid from '../components/hero/HeroFluid.vue'
+import CompanyInfo from '../components/base/CompanyInfo.vue'
 export default {
   name: 'About',
   metaInfo: {
-    title: 'O nama | Royal',    
+    title: 'O nama | Royal',
     meta: [{
       vmid: 'description',
       name: 'description',
@@ -28,5 +28,3 @@ export default {
   }
 }
 </script>
-
-
